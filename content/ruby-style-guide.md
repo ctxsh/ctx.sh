@@ -1,7 +1,7 @@
 ---
 title: "Ruby Style Guide"
 date: 2019-06-04T19:50:09-07:00
-draft: true
+draft: false
 ---
 
 This Ruby style guide recommends best practices so that real-world Ruby
