@@ -1,6 +1,6 @@
-baseURL = "http://example.org/"
+baseURL = "https://ctx.sh/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "opensource"
 theme = "hello-friend"
 
 [params]
@@ -34,7 +34,7 @@ theme = "hello-friend"
         identifier = "home"
         name = "home"
         url = "https://ctxswitch.com"
-        
+
       [[languages.en.menu.main]]
         identifier = "github"
         name = "github"
