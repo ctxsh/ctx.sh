@@ -1,0 +1,9 @@
+{{ define "main" }}
+<div class="section">
+  <div class="row green-text text-darken-2">
+    <p>user@{{ .Site.Title }} $ {{ .RelPermalink }}</p>
+    <p>zsh: command not found: {{ .RelPermalink }}</p>
+    <span class="cursor"><p>user@{{ .Site.Title }} $</p></span>
+  </div>
+</div>
+{{ end }}

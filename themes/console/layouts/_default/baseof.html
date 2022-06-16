@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    {{- partial "head.html" . -}}
+    <body class="black">
+        {{- partial "header.html" . -}}
+        <div class="container">
+        {{- block "main" . }}{{- end }}
+        </div>
+        {{- partial "footer.html" . -}}
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+    </body>
+</html>
