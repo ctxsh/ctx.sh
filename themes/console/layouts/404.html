@@ -1,0 +1,9 @@
+{{ define "main" }}
+<div class="section">
+  <div class="row green-text text-darken-2">
+    <p>user@{{ .Site.Title }} $ clackity, clackity, clackity, clack</p>
+    <p>zsh: command not found</p>
+    <span class="cursor"><p>user@{{ .Site.Title }} $ <a href="{{ "/" | relURL }}">home</a></p></span>
+  </div>
+</div>
+{{ end }}

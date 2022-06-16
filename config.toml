@@ -1,7 +1,6 @@
 baseURL = "https://ctx.sh/"
-languageCode = "en-us"
-title = "opensource"
-theme = "hello-friend"
+title = "ctx.sh"
+theme = "console"
 
 [params]
   contentTypeName = "posts"
@@ -9,28 +8,9 @@ theme = "hello-friend"
   showMenuItems = 2
   showReadingTime = false
 
-[languages]
-  [languages.en]
-    title = "ctx.sh"
-    subtitle = "opensource"
-    keywords = ""
-    copyright = " "
-    menuMore = "Show more"
-    writtenBy = "Written by"
-    readMore = "Read more"
-    readOtherPosts = "Read other posts"
-    newerPosts = "Newer posts"
-    olderPosts = "Older posts"
-    minuteReadingTime = "min read"
-    dateFormatSingle = "2006-01-02"
-    dateFormatList = "2006-01-02"
-
-    [languages.en.params.logo]
-      logoText = "ctx.sh"
-      logoHomeLink = "/"
-
-    [languages.en.menu]
-      [[languages.en.menu.main]]
-        identifier = "github"
-        name = "github"
-        url = "https://github.com/ctxswitch"
+[menu]
+  [[menu.main]]
+    name = "Home"
+    pre = "home"
+    url = "/"
+    weight = 1

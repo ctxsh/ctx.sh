@@ -1,0 +1,24 @@
+body {
+  font-family: 'Share Tech Mono', monospace;
+}
+
+.cursor p {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.cursor p::after {
+  content: "";
+  width: 7px;
+  height: 14px;
+  background: white;
+  display: inline-block;
+  animation: cursor-blink 1.5s steps(2) infinite;
+}
+
+@keyframes cursor-blink {
+  0% {
+    opacity: 0;
+  }
+}
