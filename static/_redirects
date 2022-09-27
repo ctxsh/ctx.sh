@@ -1,2 +1,3 @@
 /apex/* go-get=1 /golang/apex.html
+/srv/* go-get=1 /golang/srv.html
 /* /404.html 404
