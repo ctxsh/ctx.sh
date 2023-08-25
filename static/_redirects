@@ -1,5 +1,5 @@
 /apex/* go-get=1 /golang/apex.html
-/strata/* go-get=1 /strata/strata.html
+/strata/* go-get=1 /golang/strata.html
 /srv/* go-get=1 /golang/srv.html
 /dynamo/* go-get=1 /golang/dynamo.html
 /opensearch-operator/* go-get=1 /golang/opensearch-operator.html
