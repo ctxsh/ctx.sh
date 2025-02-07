@@ -1,0 +1,6 @@
+<html>
+<head>
+  <meta name="go-import" content="ctx.sh/coral git https://github.com/ctxswitch/coral">
+  <meta name="go-source" content="ctx.sh/coral https://github.com/ctxswitch/coral https://github.com/ctxswitch/coral/tree/master{/dir} https://github.com/ctxswitch/coral/blob/master{/dir}/{file}#L{line}">
+</head>
+</html>

@@ -1,0 +1,6 @@
+<html>
+<head>
+  <meta name="go-import" content="ctx.sh/seaway git https://github.com/ctxswitch/seaway">
+  <meta name="go-source" content="ctx.sh/seaway https://github.com/ctxswitch/seaway https://github.com/ctxswitch/seaway/tree/master{/dir} https://github.com/ctxswitch/seaway/blob/master{/dir}/{file}#L{line}">
+</head>
+</html>
